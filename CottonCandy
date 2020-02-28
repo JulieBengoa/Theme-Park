@@ -1,0 +1,25 @@
+public class CottonCandy  extends Vendor
+	{	
+		//@param peopleVisiting		the number of people visiting the park
+		public CottonCandy(int peopleVisiting)
+		{
+			super(peopleVisiting);
+			
+			//set the average price of food at CottonCandy
+			double averageFoodPrice = 15.99;
+			setFoodPrice(averageFoodPrice);
+			
+			//set the cost of materials
+			double materialCost = 40.00;
+			setCost(materialCost);
+			
+			//set the popularity and calculate the people attending CottonCandy
+			double popFactor = .50;
+			setPeoplePerDay(popFactor);
+			
+			//set the number of employees needed to function CottonCandy
+			int employeesNeeded = 2;
+			setEmployeesNeeded(employeesNeeded);
+		}
+		
+	}
